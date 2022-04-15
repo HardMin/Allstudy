@@ -5,9 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/app.css";
 
-//Import Components
-import { NavVertical } from "./components/Nav";
-
 //Import Layouts
 import { Header, Footer } from "./layout/index";
 
@@ -19,11 +16,6 @@ export const App = ()=>{
         <BrowserRouter>
             <Header/>
             <div className="container-content">
-                <section>
-                    <nav className="nav-vertical">
-                        <NavVertical/>
-                    </nav>
-                </section>
                 <PagApp/>
             </div>
             <Footer/>

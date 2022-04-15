@@ -1,9 +1,9 @@
+import '../style/footer.css';
 
-
-export function Footer(){
+export const Footer = ()=>{
     return(
-        <footer>
-            <h1>Allstudy</h1>
+        <footer className="container-footer">
+            <h2>Allstudy</h2>
         </footer>
     )
 }

@@ -38,15 +38,23 @@ const NavBar = () => {
                 Categoría
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem>
+                  <Link className="nav-link navbar-options" to='/concepts/computing/'>Informatica</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link className="nav-link navbar-options" to='/concepts/programming/'>Programación</Link>
+                </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Option 3</DropdownItem>
-                <DropdownItem>Option 4</DropdownItem>
-                <DropdownItem>Option 5</DropdownItem>
+                <DropdownItem>
+                  <Link className="nav-link navbar-options" to='/concepts/programming/'>Programación</Link>
+                </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Option 6</DropdownItem>
-                <DropdownItem>Option 7</DropdownItem>
+                <DropdownItem>
+                  <Link className="nav-link navbar-options" to='/concepts/programming/'>Programación</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link className="nav-link navbar-options" to='/concepts/programming/'>Programación</Link>
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
