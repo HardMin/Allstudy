@@ -1,9 +1,10 @@
+//Import Components
+import { NavBar } from "../components/Nav";
 
-
-export function Header(){
+export const Header = () =>{
     return(
         <header>
-            <h1>Allstudy</h1>
+            <NavBar/>
         </header>
     )
 }

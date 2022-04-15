@@ -1,7 +1,7 @@
 import React, {StrictMode} from "react";
 
 
-export function HomePage(){
+const HomePage = ()=>{
     return(
         <StrictMode>
             <section>
@@ -11,4 +11,8 @@ export function HomePage(){
             </section>
         </StrictMode>
     )
+}
+
+export {
+    HomePage
 }

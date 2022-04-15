@@ -1,14 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
-import Views from '../views/index';
-const Home = Views.Home();
+import {HomePage} from '../views/index';
 
-export function RoutesPag(){
+const RoutesPag = ()=>{
     return(
             <Routes>
-                <Route path="/" element={Home}/>
+                <Route path="/" element={<HomePage/>}/>
                 <Route path="*" element={
                     <h1>ERROR 404 No se encuentra el documento</h1>
                 }/>
             </Routes>
     );
 };
+
+export {
+    RoutesPag
+}
