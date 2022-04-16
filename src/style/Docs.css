@@ -1,0 +1,29 @@
+.container-md{
+    text-align: justify;
+}
+.container-main-header{
+    /* height: 50vh; */
+    height: 40em;
+    padding: 0;
+    margin: -10px 0px 30px 0px;
+}
+
+.main-header-img{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/pexels-ylanite-koppens-2008145.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-header-title{
+    color: rgb(48, 48, 48);
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    font-size: 9em;
+    user-select: none;
+    padding: .1em;
+    background: rgba(85, 85, 85, 0.062);
+    box-shadow: 4px 1px 20px rgba(85, 85, 85, 0.123);
+}

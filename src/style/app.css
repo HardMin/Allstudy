@@ -1,4 +1,21 @@
 
+.title-Allstudy{
+    letter-spacing: .7px;
+    font-family: Oswald-Bold;
+}
+.strong-subtitle-Allstudy{
+    letter-spacing: .7px;
+}
+.strong-text-title-Allstudy{
+    letter-spacing: .7px;
+}
+.strong-text-important-Allstudy{
+    letter-spacing: .7px;
+    font-weight: 700;
+}
+p{
+    font-size: 1.2em;
+}
 .container-content{
     display: flex;
     justify-content: space-between;
