@@ -1,0 +1,23 @@
+{
+    "Routes":{
+        "Home":"/",
+    
+
+        "Docs":
+            
+            {
+                "Home":"/Docs/",
+
+                "Informatics":{
+                    "Home":"/Docs/informatics"
+                }
+    
+                ,
+                "Programming":{
+                    "Home":"/Docs/programming"
+                }
+                
+            }
+        
+    }
+}

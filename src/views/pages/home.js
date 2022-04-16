@@ -1,13 +1,30 @@
+
+//Import Pakage
 import React, {StrictMode} from "react";
 
+//Import Components
+import { StrongSubTitle, StrongTextImportant as Strong, StrongTextTitle } from "../../components";
+
+//Import style
+import '../../style/Docs.css';
 
 const HomePage = ()=>{
     return(
         <StrictMode>
-            <section>
-                <section>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <section className="container-md p-3">
+                <div className="container-xl container-main-header">
+                    <div className="main-header-img"></div>
+                    <h2 className="main-header-title title-Allstudy">Allstudy</h2>
+                </div>
+                <hr />
+                <section className="container-md p-2">
+                    <h2>¿Qué es {<StrongSubTitle content="Allstudy"/>}?</h2>
+                    <p className="container-md p-3 ">
+                        <StrongTextTitle content={"Allstudy"}/> es un <Strong content={"'Enciclopedia'"}/>, 
+                        donde se recopila toda información de algunos temas. Tales como, <Strong content={['matemática','física','informática','programación']}/> con la finalidad de guardar toda la información en este sitio. 
+                    </p>
                 </section>
+                
             </section>
         </StrictMode>
     )

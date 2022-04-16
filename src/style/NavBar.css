@@ -3,11 +3,13 @@
     margin-left: 1em;
     margin-right: 60%;
 }
-
+header .d-flex{
+    margin-left: 30%;
+}
 .navbar-input{
     height: 30px;
     min-width: 150px;
-    margin-left: .9em;
+    margin-right: -10em;
     border: 0;
     outline: 0;
     border-radius: 0;
@@ -19,15 +21,28 @@
     margin-left: -.46em;
     height: 30px;
     outline: 0;
+    border: none;
+    border: 1px solid;
     border-radius: 0;
     padding: 0 10px;
+    border-color: #eee;
+    color: #eee;
+    background: transparent;
 
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.navbar-btn:hover{
+    background: #f0f8ff;
+    color: #333;
+}
 
 .navbar-links{
     margin-left: -60px;
+}
+
+.navbar-options{
+    color: #333 !important;
 }
 
 @media only screen and (max-width: 1245px) {
@@ -36,12 +51,12 @@
     }
 }
 @media only screen and (max-width: 1045px) {
-    .navbar-links{
-        margin-left: -180px;
+    header .d-flex{
+        margin-left: 3%;
     }
 }
 @media only screen and (max-width: 800px) {
-    .navbar-links{
-        margin-left: -200px;
+    header .d-flex{
+        margin-left: 0;
     }
 }

@@ -1,7 +1,42 @@
+
+
+
 .nav-vertical{
     background: #F8F8FF;
-    width: 10em;
+    width: 12em;
     margin-right: 1em;
     padding: .4em;
+    min-height: 100vh;
     height: 100%;
+}
+
+.NavVertical-link{
+    color: #333;
+}
+.NavVertical-link:hover{
+    background: #fefeff;
+    color: #000;
+}
+
+
+.container_nav-vertical .accordion-button{
+    background: #F8F8FF;
+    padding-left: 1em;
+    height: 40px;
+}
+.container_nav-vertical .accordion-button:hover{
+    background: #fefeff;
+}
+.container_nav-vertical .accordion-button:not(.collapsed){
+    background: #F8F8FF;
+    color: #333; 
+}
+
+.container_nav-vertical .accordion-button:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.container_nav-vertical .accordion-body{
+    border-top: .4px solid #aaaaaa33 ;
 }
